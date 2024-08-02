@@ -1,0 +1,120 @@
+
+.container{
+   height:94vh;
+  
+    background-image: linear-gradient(rgb(223, 139, 214),rgb(153, 205, 228));
+  margin: 0 auto;
+  border-radius: 5px;
+  
+}
+h1{
+  
+  padding: 15px;
+  text-align: center;
+  color:saddlebrown;
+  
+}
+.option{
+  text-align: center;
+
+
+}
+
+ul{
+  list-style-type: none;
+ padding: 20px;
+  
+}
+li{
+  margin: 0 auto;
+  width: 60%;
+  background-color:transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  opacity: 0.6;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  color:navy ;
+  
+}
+li:hover{
+  background-color:white ;
+  cursor: pointer;
+}
+
+
+.selected{
+  background-color:white;
+
+
+}
+
+.button{
+  margin-bottom: 15px;
+  background-color:cadetblue;
+  border-radius: 10px;
+  height: 25px;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+.button-disable{
+margin-bottom: 15px;
+  border-radius: 10px;
+  width: 20%;
+  cursor: not-allowed;
+}
+
+.score{
+  height: 92vh;
+  background-image: linear-gradient(rgb(223, 139, 214),rgb(153, 205, 228));
+ margin: 0 auto;
+ border-radius: 4px;
+ padding: 10px;
+}
+.score h1 ,p{
+  text-align: center;
+}
+
+@media (max-width:460px){
+  .button{
+    width: 20%;
+    
+    height: 40px;
+    color: white;
+    cursor: pointer;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+  text-align: center;
+}
+
+
+
+ 
+
+
+
+
+
+
+*/
